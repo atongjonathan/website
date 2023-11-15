@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+body
+{
+    background-color: rgb(237, 249, 254);
+    color: rgb(0, 28, 85);
+
+}
+.header
+{
+    width: 90%;
+    /* background-color: blue; */
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.name-div
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 10px; */
+    /* background-color: green; */
+    margin-top: 15px;
+
+}
+.name
+{
+    text-decoration: none;
+    color: rgb(0, 28, 85);
+    height: 100%;
+    width: 100%;
+    font-family: "Pacifico", serif;
+    font-size: large;
+    
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.name:hover
+{
+    text-decoration: none;
+    color: black;
+}
+.navigation
+{
+    /* background-color: yellow; */
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    column-gap: 5px;
+    font-weight: 600;
+    font-size: medium;
+    line-height: 20px;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin: 0 auto; */
+
+
+}
+.nav-link
+{
+    /* height: 100%; */
+    /* background-color: purple; */
+    padding: 10px;
+    cursor: pointer;
+    padding: 13px;
+}
+.nav-link:hover
+{
+    background-color: rgb(166 225 249);
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.about-section
+{
+    display: flex;
+    margin: 0 5%;
+    column-gap: 20px;
+    /* background-color: gray; */
+}
+.about
+{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ row-gap: 10px;
+   
+}
+.image-div
+{
+    width: 50%;
+}
+.svg
+{
+    width: 100%;
+    height: 95%;
+    background-color: rgb(165, 164, 164);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.my_name
+{
+    font-weight: 800;
+}
+.nickname
+{
+    font-weight: 600;
+}
+.description
+{
+ font-size: large;
+ word-spacing: 6px; 
+ font-weight: bold;
+ opacity: .7;
+ line-height: 35px;  
+}
+.social-media-div
+{
+    display: flex;
+    column-gap: 10px;
+    /* background-color: purple; */
+    /* width: 70%; */
+}
+.socials
+{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+.socials:hover
+{
+    background-color:rgb(0, 28, 85)
+}
+.icon
+{
+    font-size: 150%;
+    color: white;
+}
+a:hover
+{
+color: white;
+}
+.icon i:hover
+{
+    color: white;
+}
+.github
+{
+    background-color: rgb(24, 23, 23);
+}
+.instagram
+{
+    /* color: black; */
+    background-color: rgb(228, 64, 95);
+}
+.facebook
+{
+    background-color: rgb(24, 119, 242);
+}
+.twitter
+{
+    background-color: rgb(29, 161, 242);
+}
+.gmail
+{
+    background-color: rgb(209, 72, 54);
+}
+.youtube
+{
+    background-color: rgb(255, 0, 0);
+}
+.linkedin
+{
+    background-color: rgb(0, 119, 181);
+}
+
+.button-div
+{
+    height: 60px;
+    /* width: 70%; */
+    /* background-color: purple; */
+    display: flex;
+}
+.button
+{
+    height: 50px;
+    width: 45%;
+    color: white;
+    background-color: rgb(0, 28, 85);
+    border: 1px solid rgb(0, 28, 85);
+    transition: .5s;
+    padding: 15px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    font-size: large;
+}
+.button:hover
+{
+    background-color: rgb(237, 249, 254);
+    color: rgb(0, 28, 85);
+}
+
+.what-i-do-section
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    margin-top : 30px;
+
+}
+.do-section
+{
+    margin-top: 30px;
+    /* background-color: red; */
+    height: 300px;
+    width: 100%;
+}
+.what-i-do
+{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.nav-link a
+{
+    color: rgb(0, 28, 85);
+
+}
+
+.do-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.i-do-title
+{
+    font-weight: 800;
+    /* background-color: palegreen; */
+}
+.i-do-description
+{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.section-data
+{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.section-title
+{
+    font-weight: bold;
+}
