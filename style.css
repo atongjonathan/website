@@ -24,14 +24,15 @@ body
 }
 .name-div
 {
-    width: 20%;
+    width: 40%;
     height: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    /* padding: 10px; */
+    padding: 10px;
     /* background-color: green; */
     margin-top: 15px;
+    align-self: center;
 
 }
 .name
@@ -41,18 +42,24 @@ body
     height: 100%;
     width: 100%;
     font-family: "Pacifico", serif;
-    font-size: large;
-    
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    font-size: x-large;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 .name:hover
 {
     text-decoration: none;
     color: black;
 }
-.navigation
+.navigations-div
+{
+    display: flex;
+    transform: .3s;
+    /* justify-content: flex-end; */
+}
+.navigations
 {
     /* background-color: yellow; */
     /* width: 100%; */
@@ -63,20 +70,20 @@ body
     font-size: medium;
     line-height: 20px;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     /* margin: 0 auto; */
-
-
+    /* transition: .3s; */
 }
-.nav-link
+
+.navigation-link
 {
     /* height: 100%; */
     /* background-color: purple; */
     padding: 10px;
     cursor: pointer;
-    padding: 13px;
+    /* transition: .3s; */
 }
-.nav-link:hover
+.navigation-link:hover
 {
     background-color: rgb(166 225 249);
 }
@@ -111,9 +118,10 @@ body
 {
     width: 100%;
     height: 95%;
-    background-color: rgb(165, 164, 164);
+    /* background-color: rgb(165, 164, 164); */
     border-radius: 10px;
     padding: 10px;
+    margin-top: 30px;
 
 }
 .my_name
@@ -253,7 +261,7 @@ color: white;
 a{
     text-decoration: none;
 }
-.nav-link a
+.navigation-link a
 {
     color: rgb(0, 28, 85);
 
