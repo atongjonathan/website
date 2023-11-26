@@ -24,10 +24,20 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const links = document.getElementsByClassName("nav-link");
     Array.from(links).forEach((nav)=>
     {
+        
         let section = nav.dataset.section;
         nav.addEventListener("click", ()=>
         {
-            showSection(document.getElementById(`${section}`));
+            showSection(document.getElementById(section));
+
+            Array.from(links).forEach((link)=>{
+                if (link!==nav)
+                {
+                    link.style.backgroundColor = "";
+                };
+            });
+
+            nav.style.backgroundColor = "rgb(166, 225, 249)";
         });
         
     })    
