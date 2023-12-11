@@ -464,7 +464,18 @@ a{
 {
     order: 0;
 }
+/* Open Source Section */
+.opensource
+{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
 
+
+}
 
 /* Education Section CSS */
 
