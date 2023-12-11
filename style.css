@@ -464,3 +464,80 @@ a{
 {
     order: 0;
 }
+
+
+/* Education Section CSS */
+
+.education
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.education
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    /* background-color: yellow; */
+}
+.education-titles
+{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.certification
+{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.degrees
+{
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.degree
+{
+    height: 600px;
+    width: 80%;
+    background-color: red;
+    display: flex;
+}
+.degree-item
+{
+    background-color: green;
+    display: flex;
+}
+.degree-desc
+{
+    width: 100%;
+}
+.degree-div
+{
+    display: flex;
+    background-color: aqua;
+}
+.degree-img-div
+{
+    width: 20%;
+    background-color: red;
+}
+.degree-img
+{
+    width: 100%;
+    background-color: brown;
+    margin-right: 5px;
+}
+.degree-text
+{
+    width: 80%;
+}
