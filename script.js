@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
+    // alert("Still under development!")
     showSection(document.getElementById("home"));
     window.onscroll = ()=>{
         let distanceScrolled = window.scrollY;
@@ -27,7 +28,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
         
         let section = nav.dataset.section;
         nav.addEventListener("click", ()=>
-        {
+        {   
+            // history.pushState({section: section}, "", `section${section}`);
             showSection(document.getElementById(section));
 
             Array.from(links).forEach((link)=>{

@@ -297,7 +297,7 @@ a{
 .section-title
 {
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
 }
 .stack-icons
 {
@@ -334,10 +334,19 @@ a{
 {
     color: rgb(97, 218, 251);
 }
-.analysis
+.leetcode
 {
-    order: 1;
-    background-color: yellow;
+    -ms-transform: rotate(360deg); 
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+    color: rgb(247, 159, 27);
+}
+.kaggle
+{
+    -ms-transform: rotate(360deg); 
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+    color: rgb(32, 190, 255);  
 }
 .text
 {
