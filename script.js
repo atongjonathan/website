@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         });
         
         section.style.display = "block";
+        // location.reload()
     };
 
     const links = document.getElementsByClassName("nav-link");
@@ -35,11 +36,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
             Array.from(links).forEach((link)=>{
                 if (link!==nav)
                 {
-                    link.style.backgroundColor = "";
+                    link.classList.remove("active");
                 };
             });
 
-            nav.style.backgroundColor = "rgb(166, 225, 249)";
+            nav.classList.add("active");
         });
         
     })    
