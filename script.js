@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
+   
     // alert("Still under development!")
     showSection(document.getElementById("home"));
     window.onscroll = ()=>{
@@ -44,5 +45,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
         });
         
     })    
+    document.getElementById("education").style.display = "block";
         
     });

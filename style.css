@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Reset Css */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 *
 {
     margin: 0;
@@ -386,6 +393,8 @@ a{
 }
 
 /* Contact Page CSS */
+
+
 .contact
 {
     width: 100%;
@@ -473,11 +482,10 @@ a{
     padding: 10px 20px;
     margin: 0;
 }
-.address-img-div
-{
-    order: 0;
-}
+
 /* Open Source Section */
+
+
 .opensource
 {
     margin: 0 auto;
@@ -492,12 +500,6 @@ a{
 
 /* Education Section CSS */
 
-.education
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .education
 {
     display: flex;
@@ -524,44 +526,71 @@ a{
 {
     height: 500px;
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .degree
 {
-    height: 600px;
     width: 80%;
-    background-color: red;
+    /* background-color: royalblue; */
     display: flex;
+    column-gap: 7px;
+    /* justify-content: space-between; */
 }
-.degree-item
+.degree-title
 {
-    background-color: green;
-    display: flex;
-}
-.degree-desc
-{
-    width: 100%;
-}
-.degree-div
-{
-    display: flex;
-    background-color: aqua;
+    margin-bottom: 20px;
 }
 .degree-img-div
 {
-    width: 20%;
-    background-color: red;
+    display: flex;
+    align-items: center;
 }
+
 .degree-img
 {
-    width: 100%;
-    background-color: brown;
+    /* margin-top: 20px; */
+    border-radius: 50%;
+    /* background-color: brown; */
     margin-right: 5px;
+    box-shadow: 5px 5px 5px #549f54;
 }
-.degree-text
+
+.table
 {
-    width: 80%;
+   /* background-color: #549f54; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    /* height: 300px; */
+}
+th:nth-child(1)
+{
+    background-color: rgb(133 183 213);
+    color: rgb(0, 28, 85);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.institution
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    /* background-color: rgb(133 183 213);
+    color: rgb(0, 28, 85); */
+}
+.institution-btn
+{
+   border-radius: 7px;
+   padding: 10px;
+   color: rgb(0, 28, 85);
+   background-color: rgba(14, 107, 168, 0.467);
+   cursor: pointer;
+    transition: .3s;
+}
+.institution-btn:hover
+{
+    background-color:rgb(237, 249, 254);
+
 }
