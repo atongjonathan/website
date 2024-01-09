@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             section.style.display = "none";
         });
         
-        section.style.display = "block";
+        // section.style.display = "block";
         // location.reload()
     };
 
@@ -45,6 +45,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
         });
         
     })    
-    // document.getElementById("education").style.display = "block";
+    document.getElementById("education").style.display = "block";
         
     });
