@@ -315,6 +315,10 @@ a{
     justify-content: center;
     
 }
+.stack-icons > *
+{
+    cursor: pointer;
+}
 .stack-icons > i
 {
     font-size: 60px;
