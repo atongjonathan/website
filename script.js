@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", ()=>{
    
-    // alert("Still under development!")
+    alert("Still under development!")
     showSection(document.getElementById("home"));
     window.onscroll = ()=>{
         let distanceScrolled = window.scrollY;

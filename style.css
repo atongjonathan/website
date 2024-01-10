@@ -318,8 +318,14 @@ a{
 .stack-icons > *
 {
     cursor: pointer;
+    transition: .2s;
 }
-.stack-icons > i
+
+.stack-icons > *:hover
+{
+    transform: scale(1.1);
+}
+.stack-icons i
 {
     font-size: 60px;
     
@@ -332,11 +338,11 @@ a{
 {
     color: rgb(21, 114, 182);
 }
-.web > i:nth-child(3)
+.web i:nth-child(3), .codepen
 {
     color: rgb(204, 102, 153);
 }
-.web > i:nth-child(4)
+.web i:nth-child(4), .hackerrank
 {
     color: rgb(0, 0, 0);
     background-color: rgb(247, 223, 30);
@@ -646,6 +652,18 @@ th:nth-child(1)
     align-items: center;
     
 }
+.goat-div
+{
+    background-color: #191717;
+}
+.mtf-img
+{
+    width: 40%;
+}
+.mtf-div
+{
+    background-color: #022a51;  
+}
 .cert-overlay
 {
     top: 0;
@@ -681,4 +699,30 @@ th:nth-child(1)
 .cert-name-div > p
 {
     font-weight: 400;
+}
+
+
+/* Projects CSS */
+.projects-section
+{
+    width: 100%;
+    padding: 50px 3%;
+    background-color: blue;
+    height: 200px;
+}
+.all-projects
+{
+    width: 100%;
+    background-color: green;
+    height: 100%;
+}
+.projects-btn
+{
+    margin: 0 auto;
+}
+.project-div
+{
+    width: 30%;
+    height: 100px;
+    background-color: red;
 }
