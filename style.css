@@ -365,6 +365,10 @@ a{
     transform: rotate(360deg);
     color: rgb(32, 190, 255);  
 }
+.python
+{
+    color: #346b9a !important;
+}
 .text
 {
     font-size: large;
@@ -707,22 +711,91 @@ th:nth-child(1)
 {
     width: 100%;
     padding: 50px 3%;
-    background-color: blue;
-    height: 200px;
+    /* background-color: blue; */
 }
 .all-projects
 {
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .projects-btn
 {
     margin: 0 auto;
+
 }
 .project-div
 {
     width: 30%;
-    height: 100px;
-    background-color: red;
+    background-color: rgb(166 225 250);
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+.project-div:hover
+{
+    transform: scale(1.03)
+}
+.project-title
+{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    /* background-color: #549f54; */
+    font-weight: 600;
+    font-size: 23px;
+}
+.project-title p
+{
+    /* background-color: rebeccapurple; */
+    margin: 0;
+}
+.project-desc
+{
+    /* background-color: yellow; */
+    width: 100%;
+    font-size: 13px;
+}
+.creation-div
+{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+}
+.creation-div p
+{
+    width: 60%;
+    /* background-color: yellowgreen; */
+    font-size: 15px;
+    margin: auto 0;
+    padding: 5x 0;
+    opacity: .5;
+    color: black;
+
+}
+.project-icons
+{
+    /* background-color: orange; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    align-items: center;
+}
+.project-icons i
+{
+    font-size: 25px;
+}
+.project-icons i:nth-child(2)
+{
+    color: #2da1d3;
+    background-color: white;
+    border-radius: 50%;
 }
