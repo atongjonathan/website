@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
    
-    alert("Still under development!")
     showSection(document.getElementById("home"));
     window.onscroll = ()=>{
         let distanceScrolled = window.scrollY;
@@ -44,7 +43,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
             nav.classList.add("active");
         });
         
-    })    
-    // document.getElementById("projects").style.display = "block";
+    })   
+    
+    // alert("Still under development!")
+
+    // document.getElementById("experience").style.display = "block";
         
     });
